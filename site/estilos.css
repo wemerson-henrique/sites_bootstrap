@@ -29,7 +29,7 @@ div{
     background-color: green;
 }
 
-@media screen and (mar-width: 576px) {
+@media screen and (mar-width: 576px) {/*@media screen and funciona como se fose um if quando o despositivo tiver 576px de largura ira colocar essa formatação*/
     #azul{
         border: 1px solid #000;
         min-height: 60px;/*autora minima*/
