@@ -1,4 +1,43 @@
 div{
     border: 1px solid #000;
-    min-height: 100px;
+    /*min-height: 80px;autora minima*/
+}
+
+#azul{
+    border: 1px solid #000;
+    min-height: 150px;/*autora minima*/
+    background-color:blue ;
+}
+#vermelho{
+    border: 1px solid #000;
+    min-height: 150px;/*autora minima*/
+    background-color: red;
+}
+#preto{
+    border: 1px solid #000;
+    min-height: 400px;/*autora minima*/
+    background-color: black;
+}
+#amarelo{
+    border: 1px solid #000;
+    min-height: 400px;/*autora minima*/
+    background-color: yellow;
+}
+#verde{
+    border: 1px solid #000;
+    min-height: 150px;/*autora minima*/
+    background-color: green;
+}
+
+@media screen and (mar-width: 576px) {
+    #azul{
+        border: 1px solid #000;
+        min-height: 60px;/*autora minima*/
+        background-color:blue ;
+    }
+    #vermelho{
+        border: 1px solid #000;
+        min-height: 45px;/*autora minima*/
+        background-color: red;
+    }
 }
