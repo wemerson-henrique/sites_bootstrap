@@ -1,0 +1,13 @@
+div{
+    border: 1px solid #000;
+    min-height: 100px;/*autora minima*/
+    background-color: grey;/*cor de fundo*/
+}
+
+#row_conteudo{
+    min-height: 400px;/*autora minima*/
+}
+
+.flex_row{/*configuração para ocupar tado o espaço, a div principal também precisa ser flex*/
+    flex: 1 0 auto;/*1 elemento vai cresser 100% em relação aos outros, 0 quanto ele vai encolher, auto largura padrão automatica*/
+}
