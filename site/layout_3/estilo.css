@@ -1,0 +1,5 @@
+#container{
+    border: 1px solid black;/*bordas*/
+    min-height: 1000px;/*altura*/
+    border: rgba(0, 0, 255, 0.644);
+}

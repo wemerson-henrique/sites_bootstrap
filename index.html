@@ -7,22 +7,46 @@
     <script type="text/javascript" src="site/bootstrap-4.5.0-dist/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="site/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
     <link type="text/css" rel="stylesheet" href="site/bootstrap-4.5.0-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="site/estilos.css">
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <header>
-        <h1>Modelo de Sites em Bootstrap</h1>
-    </header>
-    <ul>
-        <li>
-            <a href="site/layout_1/home.html">Layout 1</a>
-        </li>
-        <li>
-            <a href="site/layout_2/home.html">Layout 2</a>
-        </li>
-        <li>
-            <a href="site/layout_3/home.html">Layout 3</a>
-        </li>
-    </ul>
+    <div class="container" id="container">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">
+                   logo
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+            </nav>
+        </header>
+        <div>
+            <ul>
+                <li>
+                    <a href="site/layout_1/home.html">Layout 1</a>
+                </li>
+                <li>
+                    <a href="site/layout_2/home.html">Layout 2</a>
+                </li>
+                <li>
+                    <a href="site/layout_3/home.html">Layout 3</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
 </body>
 </html>
