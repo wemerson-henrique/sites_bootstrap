@@ -5,12 +5,18 @@ body{
 #corpo{
     /*min-height: 900px;/*altura*/
 }
-#roda_pe{
+#roda_pe {
     /*border: 1px solid black;/*bordas*/
     min-height: 50px;/*altura*/
-    background-color: grey;
+}
+
+.card-footer {
+    background-color: rgb(52, 58, 64);
     color: white;
 }
 .list-group-item{
     font-weight: 500;
 }
+/* .container{
+    border: 1px solid black;/*bordas
+} */
