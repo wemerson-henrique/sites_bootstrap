@@ -3,7 +3,7 @@ body{
     background:  linear-gradient( 45deg, blue, red );
 }
 #corpo{
-    min-height: 900px;/*altura*/
+    /*min-height: 900px;/*altura*/
 }
 #roda_pe{
     /*border: 1px solid black;/*bordas*/
