@@ -1,9 +1,15 @@
+body{
+    background-color: transparent;
+    background:  linear-gradient( 45deg, blue, red );
+}
 #corpo{
-    min-height: 500px;/*altura*/
+    min-height: 900px;/*altura*/
 }
 #roda_pe{
-    border: 1px solid black;/*bordas*/
+    /*border: 1px solid black;/*bordas*/
     min-height: 50px;/*altura*/
+    background-color: grey;
+    color: white;
 }
 .list-group-item{
     font-weight: 500;
