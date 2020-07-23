@@ -1,4 +1,10 @@
-#container{
+#corpo{
+    min-height: 500px;/*altura*/
+}
+#roda_pe{
     border: 1px solid black;/*bordas*/
-    min-height: 1000px;/*altura*/
-   
+    min-height: 50px;/*altura*/
+}
+.list-group-item{
+    font-weight: 500;
+}
