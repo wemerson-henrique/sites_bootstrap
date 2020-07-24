@@ -19,15 +19,3 @@ body{
 .list-group-item{
     font-weight: 500;
 }
-/* #rodape-coluna{
-    border: 1px solid black;/*bordas
-    height: auto;
-} */
-#rodape-ultimo-card{
-    /* border-top: 1px solid rgba(255, 255, 255, 0.363); */
-    border: 1px solid black;/*bordas*/
-}
-.logo{
-    font-size: 20;
-    font-weight: 800;
-}
