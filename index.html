@@ -12,8 +12,8 @@
 <body>
   <div class="container" id="test">
     <header>
-      <div id="menu">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!--navbar cria um cabeçalho de menu, navbar-expand-lg alinha a esquerda, navbar-dark bg-dark é o estilo da cor do menu-->
+      <div id="cabecalho">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="menu"> <!--navbar cria um cabeçalho de menu, navbar-expand-lg alinha a esquerda, navbar-dark bg-dark é o estilo da cor do menu-->
           <a class="navbar-brand" href="#"><!--navbar-brand cria local para colocar a logo-->
             WS Serços<!--navbar-toggler-icon coloca o icone-->
           </a>
@@ -61,9 +61,33 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-12" id="roda_pe">
-        <div class="card-footer">
-          Em desenvolvimento
+      <div class="col-12" id="rodape">
+        <div class="card-footer" id="rodape-ultimo-card" style="width: auto;">
+          <div class="row d-flex justify-content-between">
+            <div class="col-sm-3 col-xs-12" id="rodape-coluna">
+              <p><a href="index.html">Home</a></p>
+              <p><a href="site_principal/sobre.html">Sobre</a></p>
+            </div>
+            <div class="col-sm-3 col-xs-12" id="rodape-coluna">
+              <h9>Parceiros</h9>
+              <p><a href="https://github.com/samuellucassouza">Samuel Lucas Souza</a></p>
+              <p><a href="https://github.com/wemerson-henrique">Wemerson Henrique</a></p>
+            </div>
+            <div class="col-sm-3 col-xs-12" id="rodape-coluna">
+              <h9>Contatos</h9>
+              <p>(00) 10011-1010</p>
+              <p><a href="#">exemplo@gmail.com</a></p>
+              <p>Minas Gerais - Brasil</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12" id="rodape-coluna">
+              <h1 class="navbar-brand" href="#"><!--navbar-brand cria local para colocar a logo-->
+                WS Serços<!--navbar-toggler-icon coloca o icone-->
+              </h1>
+              Copyright © 2020 | Wemerson Henrique
+            </div>
+          </div>
         </div>
       </div>
     </div>

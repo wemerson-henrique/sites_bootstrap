@@ -1,15 +1,17 @@
+/* #menu{
+    height: 75px;
+} */
 body{
     background-color: transparent;
     background:  linear-gradient( 45deg, blue, red );
 }
-#corpo{
-    /*min-height: 900px;/*altura*/
-}
-#roda_pe {
+/* #corpo{
+    min-height: 900px;/*altura
+} */
+#rodape {
     /*border: 1px solid black;/*bordas*/
     min-height: 50px;/*altura*/
 }
-
 .card-footer {
     background-color: rgb(52, 58, 64);
     color: white;
@@ -17,6 +19,15 @@ body{
 .list-group-item{
     font-weight: 500;
 }
-/* .container{
+/* #rodape-coluna{
     border: 1px solid black;/*bordas
+    height: auto;
 } */
+#rodape-ultimo-card{
+    /* border-top: 1px solid rgba(255, 255, 255, 0.363); */
+    border: 1px solid black;/*bordas*/
+}
+.logo{
+    font-size: 20;
+    font-weight: 800;
+}
