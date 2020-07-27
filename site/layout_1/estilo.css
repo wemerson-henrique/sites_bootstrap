@@ -5,18 +5,37 @@ div{
 
 #azul{
     border: 1px solid #000;
-    min-height: 150px;/*autora minima*/
+    min-height: auto;/*autora minima*/
     background-color:blue ;
 }
 #vermelho{
     border: 1px solid #000;
-    min-height: 150px;/*autora minima*/
+    min-height: auto;/*autora minima*/
     background-color: red;
+}
+#navbar_menu{
+    background-color: #0AC3F7;
+}
+#opcao_menu{
+    font-weight: 400;
+}
+ul{
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+}
+a:hover{/*hover quando passar o mouse em sima a teg a fica com estes parametros*/
+    font-size: 25px;
+    color: blue;
 }
 #preto{
     border: 1px solid #000;
     min-height: 400px;/*autora minima*/
-    background-color: black;
+    background-color: #333B5E;
 }
 #amarelo{
     border: 1px solid #000;
@@ -26,7 +45,7 @@ div{
 #verde{
     border: 1px solid #000;
     min-height: 150px;/*autora minima*/
-    background-color: green;
+    background-color: blue;
 }
 
 @media screen and (mar-width: 576px) {/*@media screen and funciona como se fose um if quando o despositivo tiver 576px de largura ira colocar essa formatação*/
