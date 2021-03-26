@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site em bootstrap</title>
+    <script type="text/javascript" src="../bootstrap-4.5.0-dist/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="../bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="../bootstrap-4.5.0-dist/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container" id="test">
+    <header>
+      <div id="cabecalho">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="menu"> <!--navbar cria um cabeçalho de menu, navbar-expand-lg alinha a esquerda, navbar-dark bg-dark é o estilo da cor do menu-->
+          <a class="navbar-brand" href="#"><!--navbar-brand cria local para colocar a logo-->
+            WS Serços<!--navbar-toggler-icon coloca o icone-->
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opcao_menu" aria-controls="opcao_menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div  class="collapse navbar-collapse justify-content-between" id="pesquisa">
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Buscar..." aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+          
+          
+          <div class="collapse navbar-collapse justify-content-between" id="opcao_menu">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="site_principal/sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="row">
+      <div class="col-12" id="corpo">
+        <div class="card" style="width: auto;">
+          <ul class="list-group list-group-flush">
+            <a href="site/layout_1/home.html">
+              <li class="list-group-item">Layout 1</li>
+            </a>
+            <a href="site/layout_2/home.html">
+              <li class="list-group-item">Layout 2</li>
+            </a>
+            <a href="site/layout_3/home.html">
+              <li class="list-group-item">Layout 3</li>
+            </a>
+            <a href="site/BSI_4P_20202_Desen_Web_aula_02/index.html">
+              <li class="list-group-item">BSI_4P_20202_Desen_Web_aula_02</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12" id="rodape">
+        <div class="card-footer" style="width: auto;">
+          <h1 class="navbar-brand" href="#"><!--navbar-brand cria local para colocar a logo-->
+            WS Serços<!--navbar-toggler-icon coloca o icone-->
+          </h1>
+          Copyright © 2020 | <a href="https://github.com/wemerson-henrique">Wemerson Henrique</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
